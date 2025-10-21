@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/RealGameScenes/Main Menu.unity
+    guid: 838a61ec80049479a94551c8bdd8f08d
+  - enabled: 1
+    path: Assets/Scenes/RealGameScenes/Opening.unity
+    guid: 4e0b03afde9ac4cd797c6b9a89520238
+  - enabled: 1
+    path: Assets/Scenes/RealGameScenes/Medieval World.unity
+    guid: 508e0b7bc40254683af86f133ca9701c
+  - enabled: 1
+    path: Assets/Scenes/RealGameScenes/MedBossFight.unity
+    guid: 93e5733f90bb94e6393c850429e04996
+  m_configObjects: {}
