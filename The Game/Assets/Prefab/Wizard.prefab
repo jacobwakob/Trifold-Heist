@@ -160,6 +160,7 @@ GameObject:
   - component: {fileID: 3246196716044957498}
   - component: {fileID: 5586581083723292891}
   - component: {fileID: 5119597255056217768}
+  - component: {fileID: 2664507670774162904}
   m_Layer: 0
   m_Name: Wizard
   m_TagString: Player
@@ -341,6 +342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 7
+  JumpHeight: 2
   fallGravityMultiplier: 2
   mouseSensitivity: 20
   pitchRange: 60
@@ -359,6 +361,21 @@ MonoBehaviour:
   health: 0
   MAXhealth: 0
   isDead: 0
+--- !u!114 &2664507670774162904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5286198890279273238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dbb1bfb0d6b24bd9914f7009f90ffd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstPersonCam: {fileID: 1102519146330617742}
+  InteractionText: {fileID: 0}
+  InteractionDistance: 5
 --- !u!1 &5335849531600934440
 GameObject:
   m_ObjectHideFlags: 0
