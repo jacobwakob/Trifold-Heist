@@ -1396,7 +1396,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1927567921}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0e4062b85bdbf48a38b689c31568fa99, type: 3}
       propertyPath: m_LocalScale.x
@@ -1412,15 +1412,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0e4062b85bdbf48a38b689c31568fa99, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 51.202106
+      value: -0.015892029
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0e4062b85bdbf48a38b689c31568fa99, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5764779
+      value: 0.086477876
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0e4062b85bdbf48a38b689c31568fa99, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 86.90475
+      value: 0.036750793
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0e4062b85bdbf48a38b689c31568fa99, type: 3}
       propertyPath: m_LocalRotation.w
@@ -23571,6 +23571,11 @@ Transform:
   - {fileID: 1456392613}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!4 &1829946442 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0e4062b85bdbf48a38b689c31568fa99, type: 3}
+  m_PrefabInstance: {fileID: 57877352}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1839801088
 GameObject:
   m_ObjectHideFlags: 0
@@ -24801,7 +24806,7 @@ GameObject:
   - component: {fileID: 1927567918}
   - component: {fileID: 1927567922}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: trophy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24890,7 +24895,8 @@ Transform:
   m_LocalPosition: {x: 51.218, y: 1.49, z: 86.868}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1829946442}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1927567922
@@ -24905,7 +24911,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 136e1fcc65ffe4ee0a12ae53620b6f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjectInteractMessage: press E to pick up
+  ObjectInteractMessage: press E to pick up Bottle of Aged Rum
 --- !u!1 &2024344253
 GameObject:
   m_ObjectHideFlags: 0
@@ -26839,4 +26845,3 @@ SceneRoots:
   - {fileID: 903238530}
   - {fileID: 589630330}
   - {fileID: 1927567921}
-  - {fileID: 57877352}
