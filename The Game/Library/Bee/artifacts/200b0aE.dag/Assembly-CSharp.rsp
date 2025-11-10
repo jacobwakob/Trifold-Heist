@@ -391,6 +391,7 @@
 "Assets/Scripts/CharacterSTATS.cs"
 "Assets/Scripts/go inside pirate.cs"
 "Assets/Scripts/Swordsman/Swordsman Movement.cs"
+"Assets/Scripts/UI/GoldPickup1.cs"
 "Assets/Scripts/UI/HolyGrailPickup.cs"
 "Assets/Scripts/UI/Interactable.cs"
 "Assets/Scripts/UI/InteractionController.cs"
