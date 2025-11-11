@@ -393,6 +393,7 @@
 "Assets/Scripts/Bosses/EnemySTATS.cs"
 "Assets/Scripts/Change of scene dance.cs"
 "Assets/Scripts/CharacterSTATS.cs"
+"Assets/Scripts/Dash.cs"
 "Assets/Scripts/go inside pirate.cs"
 "Assets/Scripts/Swordsman/Swordsman Movement.cs"
 "Assets/Scripts/UI/Bomb Wall.cs"
