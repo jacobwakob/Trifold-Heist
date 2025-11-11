@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/RealGameScenes/WildWestBoss.unity
+- path: Assets/Scenes/RealGameScenes/Main Menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

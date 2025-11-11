@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GoldPickup1 : MonoBehaviour
+public class GoldPickup1 : MonoBehaviour, Interactable
 {
     public string InteractMessage => ObjectInteractMessage;
 
